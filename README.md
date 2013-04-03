@@ -34,6 +34,12 @@ Checks if two floats are within the given tolerances of one another using the fo
 
 **Returns** `true` if `a` and `b` are approximately equal
 
+### `almostEqual.FLT_EPSILON`
+Floating point (32-bit) epsilon
+
+### `almostEqual.DBL_EPSILON`
+Double precision (64-bit) epsilon
+
 Credits
 =======
 (c) 2013 Mikola Lysenko. MIT License
