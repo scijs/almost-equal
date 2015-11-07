@@ -5,6 +5,10 @@ var abs = Math.abs
 
 function almostEqual(a, b, absoluteError, relativeError) {
   var d = abs(a - b)
+  
+  if (absoluteError == null) absoluteError = almostEqual.FLT_EPSILON;
+  if (relativeError == null) relativeError = almostEqual.FLT_EPSILON;
+  
   if(d <= absoluteError) {
     return true
   }
