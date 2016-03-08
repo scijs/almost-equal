@@ -6,7 +6,7 @@ var abs = Math.abs
 function almostEqual(a, b, absoluteError, relativeError) {
   var d = abs(a - b)
   
-  if (absoluteError == null) absoluteError = almostEqual.FLT_EPSILON;
+  if (absoluteError == null) absoluteError = almostEqual.DBL_EPSILON;
   if (relativeError == null) relativeError = absoluteError;
   
   if(d <= absoluteError) {
