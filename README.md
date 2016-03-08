@@ -34,7 +34,7 @@ Checks if two floats are within the given tolerances of one another using the fo
 
 **Returns** `true` if `a` and `b` are approximately equal.
 
-If tolerance value is omitted, `almostEqual.DBL_EPSILON` tolerance is used.
+If tolerance argument is omitted, `almostEqual.DBL_EPSILON` value is used by default.
 
 ### `almostEqual.FLT_EPSILON`
 Floating point (32-bit) epsilon
